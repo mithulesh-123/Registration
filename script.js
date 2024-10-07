@@ -14,10 +14,6 @@ form.addEventListener('submit', (event) => {
         return;
     }
 
-    // Submit data to server (e.g., using fetch API or AJAX)
-    // For this example, we'll just log the data to the console
     console.log('Submitted data:', { name, email, password });
-
-    // Display completion message
     completionMessage.style.display = 'block';
 });
